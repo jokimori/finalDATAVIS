@@ -1,0 +1,129 @@
+/* Contenedor principal de la página */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FAF3E0;
+    padding: 20px;
+  }
+  
+  /* Contenedor de todo el contenido */
+  .contentWrapper {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Contenedor que agrupa texto e imágenes */
+  .textImageContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Contenedor para el texto a la izquierda */
+  .textContainer {
+    width: 60%;
+    padding-right: 20px;
+  }
+  
+  /* Título */
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2F5D8A;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los párrafos */
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor para las imágenes a la derecha */
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 35%;
+  }
+  
+  /* Estilo para las imágenes */
+  .image {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo del botón de continuar */
+  .continueButton {
+    width: 100%;
+    height: 60px;
+    background-color: #A8C4D9;
+    color: #2F5D8A;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .continueButton:hover {
+    background-color: #90AFC0;
+  }
+  /* Estilo para las áreas de hover */
+.hover-zones {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hover-area {
+    position: absolute;
+    background-color: transparent; /* Manténlas invisibles */
+  }
+  
+  .hover-area:hover {
+    cursor: pointer;
+    /* Puedes agregar algún efecto visual temporal si lo deseas, pero no es necesario */
+  }
+  /* Añadir este CSS a tu archivo de estilos globales o módulo CSS */
+.hover-area {
+    background-color: rgba(0, 0, 0, 0.3); /* Color semitransparente para ver las áreas */
+    border: 1px dashed red; /* Borde para visualizar mejor el área */
+  }
+  /* Añadir este CSS a tu archivo de estilos globales o módulo CSS */
+.hover-area {
+    background-color: rgba(0, 0, 0, 0.3); /* Color semitransparente para ver las áreas */
+    border: 1px dashed red; /* Borde para visualizar mejor el área */
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 100px; /* Ajusta la posición vertical de la imagen según necesites */
+    left: 0; /* Ajusta la posición horizontal si es necesario */
+  }
+  /* Añadir este CSS a tu archivo de estilos globales o módulo CSS */
+.hover-area {
+    background-color: rgba(0, 0, 0, 0.3); /* Color semitransparente para ver las áreas */
+    border: 1px dashed red; /* Borde para visualizar mejor el área */
+  }
+  
+  /* Estilo para la imagen que cambia dinámicamente */
+  .relative {
+    position: relative;
+  }
+  /* Añadir este CSS a tu archivo de estilos globales o módulo CSS */
+.hover-area {
+    background-color: rgba(0, 0, 0, 0.3); /* Color semitransparente para ver las áreas */
+    border: 1px dashed red; /* Borde para visualizar mejor el área */
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  
