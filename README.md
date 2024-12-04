@@ -1,7 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Hola soy Joaquina. Para poder ver las imágenes de este proyecto, hacer lo siguiente:
 
+1. Crear una carpeta vacía llamada "public" en el proyecto.
+2. A esa carpeta, agregarle las imágenes que se encuentran en este drive: https://drive.google.com/drive/folders/1jsoThMurcYe31DceKvDEQ_PXAdUy-8KU?usp=drive_link
+Y creo que debería funcionar. Igual cualquier cosa Luz tiene el .zip.
 First, run the development server:
 
 ```bash
